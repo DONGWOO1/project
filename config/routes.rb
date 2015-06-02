@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'shopping/posts'
+
+  get 'shopping/posts_category'
+
+  get 'shopping/show'
+
+  get 'shopping/write'
+
+  get 'shopping/write_complete'
+
+  get 'shopping/edit'
+
+  get 'shopping/edit_complete'
+
+  get 'shopping/delete_complete'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
